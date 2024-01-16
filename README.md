@@ -26,5 +26,3 @@ Les pages d'équipe peuvent afficher divers éléments tels qu'un emblème, des 
 
 ### Exemple d'une page équipe :
 ![Page Équipe](lien_vers_image_page_equipe)
-
-Note: Les liens vers les images et les pages sont à remplacer par les URL réelles.
