@@ -2,3 +2,54 @@ img{
     height : auto;
     width : 120px;
 }
+
+
+/* Style des menus */
+.menu-label {
+    font-weight: bold;
+    color: #333; /* Couleur du texte */
+    margin-top: 1em;
+}
+
+.menu-list a {
+    color: #555; /* Couleur du texte des liens */
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-list a:hover {
+    color: #84ff00; /* Couleur du texte des liens au survol */
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+
+/* Style des cellules d'en-tête et des cellules de données */
+.table th,
+.table td {
+    border: 1px solid #ddd !important; /* Bordures des cellules */
+    padding: 0.75em !important;
+    transition: transform 0.3s ease-in-out; /* Ajout d'une transition pour l'effet */
+}
+
+/* Style des cellules d'en-tête */
+.table th {
+    background-color: #82db34; /* Couleur de fond des cellules d'en-tête */
+    color: #fff; /* Couleur du texte des cellules d'en-tête */
+    text-align: left;
+}
+
+/* Effet de translation au survol */
+.table td:hover {
+    transform: translateY(-5px) !important; /* Déplacement de la cellule de 3 pixels vers le haut au survol */
+}
+.panel-block {
+    /* Ajout d'une transition pour l'effet */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Déplacement de la cellule de 3 pixels vers le haut au survol */
+.panel-block:hover {
+    transform: translateY(-3px);
+}
+
+
+
