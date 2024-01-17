@@ -7,39 +7,47 @@ img{
 /* Style des menus */
 .menu-label {
     font-weight: bold;
-    color: #333; /* Couleur du texte */
+    /* Couleur du texte */
+    color: #333;
     margin-top: 1em;
 }
 
 .menu-list a {
-    color: #555; /* Couleur du texte des liens */
+    /* Couleur du texte des liens */
+    color: #555;
     transition: color 0.3s ease-in-out;
 }
 
 .menu-list a:hover {
-    color: #84ff00; /* Couleur du texte des liens au survol */
-    text-decoration: underline; /* Soulignement au survol */
+    /* Couleur du texte des liens au survol */
+    color: #84ff00;
+    /* Soulignement au survol */
+    text-decoration: underline;
 }
 
 
 /* Style des cellules d'en-tête et des cellules de données */
 .table th,
 .table td {
-    border: 1px solid #ddd !important; /* Bordures des cellules */
+    /* Bordures des cellules */
+    border: 1px solid #ddd !important;
     padding: 0.75em !important;
-    transition: transform 0.3s ease-in-out; /* Ajout d'une transition pour l'effet */
+    /* Ajout d'une transition pour l'effet */
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Style des cellules d'en-tête */
 .table th {
-    background-color: #82db34; /* Couleur de fond des cellules d'en-tête */
-    color: #fff; /* Couleur du texte des cellules d'en-tête */
+    /* Couleur de fond des cellules d'en-tête */
+    background-color: #82db34;
+    color: #fff;
     text-align: left;
 }
 
 /* Effet de translation au survol */
 .table td:hover {
-    transform: translateY(-5px) !important; /* Déplacement de la cellule de 3 pixels vers le haut au survol */
+    /* Déplacement de la cellule de 5 pixels vers le haut au survol */
+    transform: translateY(-5px) !important;
 }
 .panel-block {
     /* Ajout d'une transition pour l'effet */
